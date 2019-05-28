@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ParallelSuite" parallel="classes" thread-count="2">
+    <test name="SumSubTest">
+         <classes>
+            <class name="by.epam.barbuk.lab.tests.CalculatorSubLongTest"/>
+            <class name="by.epam.barbuk.lab.tests.CalculatorSumLongTest"/>
+        </classes>
+    </test>
+</suite>

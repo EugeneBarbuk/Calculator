@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GroupSuite">
+    <test name="AnglesTests">
+        <groups>
+            <run>
+                <include name="trigonometric"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="by.epam.barbuk.lab.tests.CalculatorSinusTest"/>
+        </classes>
+    </test>
+</suite>

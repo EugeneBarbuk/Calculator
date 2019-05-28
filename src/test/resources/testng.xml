@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sum Suite">
+	<test name="Sum Long Test">
+		<classes>
+			<class name="by.epam.barbuk.lab.tests.CalculatorSumLongTest"/>
+		</classes>
+	</test>
+	<test name="Sum Double Test">
+		<classes>
+			<class name="by.epam.barbuk.lab.tests.CalculatorSumDoubleTest"/>
+		</classes>
+	</test>
+	<test name="Sub Long Test">
+		<classes>
+			<class name="by.epam.barbuk.lab.tests.CalculatorSubLongTest"/>
+		</classes>
+	</test>
+	<test name="Sub Double Test">
+		<classes>
+			<class name="by.epam.barbuk.lab.tests.CalculatorSubDoubleTest"/>
+		</classes>
+	</test>
+</suite>
