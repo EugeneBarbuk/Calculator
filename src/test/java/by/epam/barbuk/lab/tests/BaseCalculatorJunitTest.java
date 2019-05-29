@@ -4,9 +4,9 @@ import com.epam.tat.module4.Calculator;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 
-public class BaseCalculatorJunitTest {
+class BaseCalculatorJunitTest {
 
-    protected static Calculator calculator;
+    static Calculator calculator;
 
     @BeforeAll
     public static void setUp() {

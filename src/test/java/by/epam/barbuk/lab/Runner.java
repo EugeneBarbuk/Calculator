@@ -4,21 +4,20 @@ import org.testng.TestNG;
 import org.testng.xml.XmlSuite;
 
 import javax.imageio.ImageIO;
-import java.awt.Robot;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
-public class Runner {
+class Runner {
     public static void main(String[] args) throws AWTException, IOException {
         TestNG testNg = new TestNG();
 
         XmlSuite suite = new XmlSuite();
-        suite.setSuiteFiles(Arrays.asList("./src/test/resources/testng.xml"));
+        suite.setSuiteFiles(Collections.singletonList("./src/test/resources/testng.xml"));
 
         List<XmlSuite> suites = new ArrayList<>();
         suites.add(suite);

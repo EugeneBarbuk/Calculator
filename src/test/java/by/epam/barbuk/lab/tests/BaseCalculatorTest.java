@@ -5,7 +5,7 @@ import org.testng.annotations.*;
 
 public class BaseCalculatorTest {
 
-    protected Calculator calculator;
+    Calculator calculator;
 
     @BeforeClass(alwaysRun = true)
     public void setUp() {
